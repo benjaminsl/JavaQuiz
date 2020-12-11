@@ -1,7 +1,13 @@
+import java.util.Scanner; 
+
 public class Driver
 {
 	public static void main(String[] args)
 	{
-		System.out.println("Hello World!");
+		Scanner InputReader = new Scanner(System.in);	
+
+		System.out.print("Enter a question: ");
+
+			
 	} // end main
 } // end class Driver
